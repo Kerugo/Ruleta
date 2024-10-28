@@ -28,13 +28,13 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 210px; /* Adjust height for 3 rows (3 * 70px) */
+    height: 216px; /* Adjust height for 3 rows (3 * 70px) */
 }
 
 .zero {
     background-color: limegreen;
     width: 70px;
-    height: 210px; /* Span 3 rows */
+    height: 216px; /* Span 3 rows */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,6 +80,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    margin-right: 65px;
     padding-left: 75px;
 }
 
@@ -143,9 +144,7 @@ img {
     bottom: 5%;
 }
 
-#div2 {
+.droptk {
     position: relative; /* Needed for absolute positioning of the image */
-    border: 2px dashed #ccc; /* Optional: border for visibility */
-    width: 70px; /* Set width to match the token */
-    height: 70px; /* Set height to match the token */
+    /*border: 2px dashed #ccc; /* Optional: border for visibility */
 }
